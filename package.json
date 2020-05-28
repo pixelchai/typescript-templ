@@ -1,0 +1,13 @@
+{
+    "author": "PixelZerg <pixelzerg@gmail.com> (https://pixelzerg.com)",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx webpack --config webpack.config.js --mode production --watch"
+    },
+    "devDependencies": {
+        "awesome-typescript-loader": "^5.2.1",
+        "typescript": "^3.9.3",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    }
+}

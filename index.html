@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    </head>
+    <body>
+        <canvas id="c"></canvas>
+        <div class="footer"><a href="https://pixelzerg.github.io">PixelZerg</a></div>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+            * {
+                margin:0;
+                padding:0;
+            }
+
+            html, body {
+                width:100%;
+                height:100%;
+                background: black;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+
+            canvas {
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .footer {
+                position: fixed;
+                font-size: 18px;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                opacity: 0.6;
+            }
+            .footer a {
+                color: white;
+            }
+        </style>
+        <script src="dist/main.bundle.js"></script>
+    </body>
+</html>
