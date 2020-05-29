@@ -1,5 +1,5 @@
 # typescript-templ
-A simple typescript + webpack template, targetting es5 browsers
+A simple typescript + webpack template, targeting es5 browsers
 
 ## Usage:
 ```
